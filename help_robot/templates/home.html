@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load i18n %}
+
+{% block title %}Help Robot - {% trans "Home" %}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <div class="text-center mb-5">
+            <h1 class="display-4 text-primary">🤖 Help Robot</h1>
+            <p class="lead">{% trans "Your assistant for understanding industrial robot errors" %}</p>
+        </div>
+
+        <!-- Status Cards -->
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card h-100 border-success">
+                    <div class="card-body text-center">
+                        <div class="display-1 text-success mb-3">✅</div>
+                        <h5 class="card-title">Fanuc</h5>
+                        <p class="card-text">{{ fanuc_status }}</p>
+                        <a href="{% url 'errors:fanuc_search' %}" class="btn btn-success">
+                            {% trans "Search Fanuc Errors" %}
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card h-100 border-warning">
+                    <div class="card-body text-center">
+                        <div class="display-1 text-warning mb-3">🔧</div>
+                        <h5 class="card-title">ABB, Kuka, ...</h5>
+                        <p class="card-text">{{ abb_status }}</p>
+                        <a href="{% url 'errors:abb_coming_soon' %}" class="btn btn-warning">
+                            {% trans "Coming Soon" %}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="mt-5">
+            <h3 class="text-center mb-4">{% trans "Features" %}</h3>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="fs-1 text-primary mb-2">🔍</div>
+                        <h5>{% trans "Fast Search" %}</h5>
+                        <p class="text-muted">{% trans "Quickly find error codes and solutions" %}</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="fs-1 text-primary mb-2">🌐</div>
+                        <h5>{% trans "Multilingual" %}</h5>
+                        <p class="text-muted">{% trans "Available in English and French" %}</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="fs-1 text-primary mb-2">🤖</div>
+                        <h5>{% trans "Multiple Brands" %}</h5>
+                        <p class="text-muted">{% trans "Support for various robot manufacturers" %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

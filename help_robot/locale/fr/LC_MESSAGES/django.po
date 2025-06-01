@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-01 11:00+0000\n"
+"PO-Revision-Date: 2025-06-01 11:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Industrial Robot Error Search"
+msgstr "Recherche d'Erreurs de Robots Industriels"
+
+msgid "Home"
+msgstr "Accueil"
+
+msgid "Error Robot"
+msgstr "Erreurs Robot"
+
+msgid "Industrial Robot Error Database"
+msgstr "Base de Données d'Erreurs de Robots Industriels"
+
+msgid "Fanuc error search is functional."
+msgstr "La recherche d'erreurs Fanuc est fonctionnelle."
+
+msgid "ABB support is under development."
+msgstr "Le support ABB est en développement."
+
+msgid "Your assistant for understanding industrial robot errors"
+msgstr "Votre assistant pour comprendre les erreurs de robots industriels"
+
+msgid "Search Fanuc Errors"
+msgstr "Rechercher les Erreurs Fanuc"
+
+msgid "Coming Soon"
+msgstr "Bientôt Disponible"
+
+msgid "Features"
+msgstr "Fonctionnalités"
+
+msgid "Fast Search"
+msgstr "Recherche Rapide"
+
+msgid "Quickly find error codes and solutions"
+msgstr "Trouvez rapidement les codes d'erreur et solutions"
+
+msgid "Multilingual"
+msgstr "Multilingue"
+
+msgid "Available in English and French"
+msgstr "Disponible en anglais et français"
+
+msgid "Multiple Brands"
+msgstr "Plusieurs Marques"
+
+msgid "Support for various robot manufacturers"
+msgstr "Support pour différents fabricants de robots"
+
+msgid "Fanuc Error Search"
+msgstr "Recherche d'Erreurs Fanuc"
+
+msgid "Enter an error code or keyword to find solutions"
+msgstr "Entrez un code d'erreur ou un mot-clé pour trouver des solutions"
+
+msgid "Enter error code (e.g., SRVO-001, ACAL-002)"
+msgstr "Entrez un code d'erreur (ex: SRVO-001, ACAL-002)"
+
+msgid "Search"
+msgstr "Rechercher"
+
+msgid "Error results language:"
+msgstr "Langue des résultats d'erreur :"
+
+msgid "Results in French"
+msgstr "Résultats en français"
+
+msgid "Results in English"
+msgstr "Résultats en anglais"
+
+msgid "Cause"
+msgstr "Cause"
+
+msgid "Solution"
+msgstr "Solution"
+
+msgid "View all results in English"
+msgstr "Voir tous les résultats en anglais"
+
+msgid "View all results in French"
+msgstr "Voir tous les résultats en français"
+
+msgid "No results found"
+msgstr "Aucun résultat trouvé"
+
+msgid "No errors found for"
+msgstr "Aucune erreur trouvée pour"
+
+msgid "Try a different search term or check the error code format."
+msgstr "Essayez un autre terme de recherche ou vérifiez le format du code d'erreur."
+
+msgid "Enter an error code above to start searching"
+msgstr "Entrez un code d'erreur ci-dessus pour commencer la recherche"
+
+msgid "Examples:"
+msgstr "Exemples :"
+
+msgid "ABB error search is under development."
+msgstr "La recherche d'erreurs ABB est en développement."
+
+msgid "Kuka error search is under development."
+msgstr "La recherche d'erreurs Kuka est en développement."
+
+msgid "ABB Errors"
+msgstr "Erreurs ABB"
+
+msgid "Kuka Errors"
+msgstr "Erreurs Kuka"
+
+msgid "ABB Error Search"
+msgstr "Recherche d'Erreurs ABB"
+
+msgid "Kuka Error Search"
+msgstr "Recherche d'Erreurs Kuka"
+
+msgid "Back to Home"
+msgstr "Retour à l'Accueil"
+
+#, python-format
+msgid "Found %(counter)s result for \"%(query)s\""
+msgid_plural "Found %(counter)s results for \"%(query)s\""
+msgstr[0] "%(counter)s résultat trouvé pour \"%(query)s\""
+msgstr[1] "%(counter)s résultats trouvés pour \"%(query)s\""

@@ -1,0 +1,195 @@
+help_robot/error_fanuc.json
+# ========================================
+# Fichier .gitignore pour Help Robot (niveau parent)
+# ========================================
+
+# Python dans tous les dossiers
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/__pycache__/
+**/*.so
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/*.egg
+**/MANIFEST
+
+# Django spécifique dans help_robot/
+help_robot/*.log
+help_robot/local_settings.py
+help_robot/db.sqlite3
+help_robot/db.sqlite3-journal
+help_robot/media/
+help_robot/staticfiles/
+
+# Environnements virtuels (tous niveaux)
+venv/
+env/
+ENV/
+robot_errors_env/
+.venv/
+help_robot/venv/
+help_robot/env/
+
+# Variables d'environnement
+.env
+.env.local
+.env.development
+.env.production
+help_robot/.env
+
+# Fichiers de configuration sensibles
+help_robot/secrets.py
+help_robot/config.py
+help_robot/local.py
+
+# IDE & Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Logs (tous niveaux)
+*.log
+logs/
+help_robot/logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Node.js (si vous utilisez npm/yarn pour frontend)
+node_modules/
+help_robot/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+help_robot/htmlcov/
+help_robot/.coverage
+
+# Translations (optionnel - à commenter si vous voulez versionner)
+# help_robot/locale/*/LC_MESSAGES/*.mo
+# help_robot/locale/*/LC_MESSAGES/*.pot
+
+# Celery (si vous l'utilisez)
+help_robot/celerybeat-schedule
+help_robot/celerybeat.pid
+
+# Fichiers temporaires Django
+help_robot/*.orig
+
+# Cache Django
+help_robot/.cache/
+
+# Jupyter Notebook (si vous l'utilisez)
+.ipynb_checkpoints
+**/.ipynb_checkpoints
+
+# Redis dump (si vous utilisez Redis)
+dump.rdb
+help_robot/dump.rdb
+
+# Elasticsearch (si vous l'utilisez)
+elasticsearch/
+help_robot/elasticsearch/
+
+# Fichiers uploadés par les utilisateurs
+help_robot/uploads/
+help_robot/user_uploads/
+
+# Documentation générée
+docs/_build/
+help_robot/docs/_build/
+
+# Fichiers de test
+.tox/
+.nox/
+help_robot/.tox/
+help_robot/.nox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+help_robot/.mypy_cache/
+
+# Pyre type checker
+.pyre/
+help_robot/.pyre/
+
+# ========================================
+# Spécifique au projet Help Robot
+# ========================================
+
+# Fichiers JSON de données temporaires
+help_robot/temp_*.json
+help_robot/test_*.json
+
+# Sauvegardes de base de données
+help_robot/*.sql
+help_robot/*.dump
+
+# Fichiers de développement
+help_robot/debug.py
+help_robot/test_script.py
+help_robot/playground.py
+
+# ========================================
+# Autres projets (optionnel)
+# ========================================
+
+# Si vous avez d'autres projets dans ce dossier
+# other_project/
+# documentation/
+# scripts/
