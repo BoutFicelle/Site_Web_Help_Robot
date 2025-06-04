@@ -1,5 +1,33 @@
-asgiref==3.8.1
-crispy-bootstrap4==2024.10
-Django==5.2.1
-django-crispy-forms==2.4
-sqlparse==0.5.3
+# Requirements pour Site Web Help Robot - Production
+
+# Django et extensions de base
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+
+# Base de données PostgreSQL
+psycopg2-binary>=2.9.0
+
+# Variables d'environnement
+python-decouple>=3.8
+
+# Serveur WSGI pour production (optionnel, pour plus tard)
+gunicorn>=21.0.0
+
+# Sécurité
+django-cors-headers>=4.3.0
+
+# Utilitaires
+Pillow>=10.0.0  # Pour les images
+requests>=2.31.0
+
+# Development tools (optionnel)
+django-debug-toolbar>=4.2.0
+
+# Monitoring et logs
+django-extensions>=3.2.0
+
+# Cache (optionnel)
+django-redis>=5.4.0
+
+# Timezone
+pytz>=2023.3
