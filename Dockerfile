@@ -12,8 +12,9 @@ WORKDIR /app
 # Installation des dépendances système
 RUN apt-get update && apt-get install -y \
     gcc \
-    default-libmysqlclient-dev \
-    pkg-config \
+    libpq-dev \
+    python3-dev \
+    build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 # Copie et installation des requirements
